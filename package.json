@@ -1,0 +1,59 @@
+{
+    "name": "tsdown-preset",
+    "type": "module",
+    "version": "0.0.0-alpha.0.0.1",
+    "packageManager": "pnpm@10.15.1",
+    "description": "An opinionated preset for tsdown.",
+    "author": "lonewolfyx",
+    "license": "MIT",
+    "homepage": "https://github.com/lonewolfyx/tsdown-preset#readme",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/lonewolfyx/tsdown-preset.git"
+    },
+    "bugs": "https://github.com/lonewolfyx/tsdown-preset/issues",
+    "keywords": [],
+    "exports": {
+        ".": "./dist/index.mjs",
+        "./package.json": "./package.json"
+    },
+    "main": "./dist/index.mjs",
+    "module": "./dist/index.mjs",
+    "types": "./dist/index.d.mts",
+    "files": [
+        "dist"
+    ],
+    "scripts": {
+        "dev": "tsdown --watch",
+        "build": "tsdown",
+        "release": "npm publish",
+        "lint": "eslint",
+        "lint:fix": "eslint --fix",
+        "prepublishOnly": "pnpm build",
+        "prepare": "simple-git-hooks"
+    },
+    "devDependencies": {
+        "@antfu/eslint-config": "^5.2.1",
+        "@lonewolfyx/tsconfig": "^0.0.6",
+        "@types/node": "^24.3.0",
+        "eslint": "^9.34.0",
+        "eslint-plugin-yml": "^1.18.0",
+        "lint-staged": "^16.1.5",
+        "simple-git-hooks": "^2.13.1",
+        "tsdown": "^0.14.1",
+        "tsup": "^8.5.0",
+        "tsx": "^4.20.5",
+        "typescript": "^5.9.2",
+        "yaml-eslint-parser": "^1.3.0"
+    },
+    "publishConfig": {
+        "registry": "https://registry.npmjs.org",
+        "access": "public"
+    },
+    "simple-git-hooks": {
+        "pre-commit": "npx lint-staged"
+    },
+    "lint-staged": {
+        "*": "eslint --fix"
+    }
+}
