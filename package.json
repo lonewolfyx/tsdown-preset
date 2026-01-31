@@ -14,11 +14,9 @@
     "bugs": "https://github.com/lonewolfyx/tsdown-preset/issues",
     "keywords": [],
     "exports": {
-        ".": "./dist/index.mjs",
+        ".": "./dist/index.js",
         "./package.json": "./package.json"
     },
-    "main": "./dist/index.mjs",
-    "module": "./dist/index.mjs",
     "types": "./dist/index.d.mts",
     "files": [
         "dist"
