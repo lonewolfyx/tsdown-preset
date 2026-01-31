@@ -1,7 +1,3 @@
-import { defineConfig } from 'tsdown'
+import { lib } from './src'
 
-export default defineConfig({
-    dts: true,
-    clean: true,
-    sourcemap: true,
-})
+export default lib()
