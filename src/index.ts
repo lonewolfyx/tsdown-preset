@@ -1,6 +1,8 @@
 import type { UserConfig } from 'tsdown'
 import { mergeConfig } from 'tsdown'
 
+export type { UserConfig }
+
 export const baseConfig = (overrides: UserConfig = {}): UserConfig => {
     return mergeConfig({
         exports: true,
