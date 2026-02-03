@@ -30,6 +30,9 @@
         "prepublishOnly": "pnpm build",
         "prepare": "simple-git-hooks"
     },
+    "peerDependencies": {
+        "tsdown": "^0.20.1"
+    },
     "devDependencies": {
         "@antfu/eslint-config": "^7.2.0",
         "@lonewolfyx/tsconfig": "^0.0.6",
