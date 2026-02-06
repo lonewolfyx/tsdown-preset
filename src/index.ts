@@ -38,3 +38,11 @@ export const lib = (overrides: UserConfig = {}): UserConfig => {
         ...overrides,
     })
 }
+
+export const nodeLib = (overrides: UserConfig = {}): UserConfig => {
+    return baseConfig({
+        entry: 'src/index.ts',
+        platform: 'node',
+        ...overrides,
+    })
+}
