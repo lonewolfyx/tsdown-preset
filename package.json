@@ -2,7 +2,7 @@
     "name": "tsdown-preset",
     "type": "module",
     "version": "1.0.3",
-    "packageManager": "pnpm@10.29.3",
+    "packageManager": "pnpm@10.30.1",
     "description": "An opinionated preset for tsdown.",
     "author": "lonewolfyx",
     "license": "MIT",
@@ -36,7 +36,7 @@
     "devDependencies": {
         "@antfu/eslint-config": "^7.4.3",
         "@lonewolfyx/tsconfig": "^0.0.6",
-        "@types/node": "^25.2.3",
+        "@types/node": "^25.3.0",
         "eslint": "^9.39.3",
         "lint-staged": "^16.2.7",
         "simple-git-hooks": "^2.13.1",
