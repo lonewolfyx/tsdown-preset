@@ -7,7 +7,9 @@ export const baseConfig = (overrides: UserConfig = {}): UserConfig => {
     return mergeConfig({
         exports: true,
         dts: true,
-        inlineOnly: false,
+        deps: {
+            onlyAllowBundle: false,
+        },
         sourcemap: true,
     }, overrides)
 }
