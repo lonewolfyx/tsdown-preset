@@ -1,7 +1,7 @@
 {
     "name": "tsdown-preset",
     "type": "module",
-    "version": "1.0.3",
+    "version": "1.0.4",
     "packageManager": "pnpm@10.30.3",
     "description": "An opinionated preset for tsdown.",
     "author": "lonewolfyx",
