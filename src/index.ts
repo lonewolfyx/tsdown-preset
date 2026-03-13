@@ -8,7 +8,7 @@ export const baseConfig = (overrides: UserConfig = {}): UserConfig => {
         exports: true,
         dts: true,
         deps: {
-            onlyAllowBundle: false,
+            onlyBundle: false,
         },
         sourcemap: true,
     }, overrides)
