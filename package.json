@@ -31,16 +31,17 @@
         "prepare": "simple-git-hooks"
     },
     "peerDependencies": {
-        "tsdown": "^0.21.0"
+        "tsdown": "^0.21.2"
     },
     "devDependencies": {
         "@antfu/eslint-config": "^7.6.1",
         "@lonewolfyx/tsconfig": "^0.0.6",
         "@types/node": "^25.3.3",
         "eslint": "^9.39.3",
+        "jiti": "^2.6.1",
         "lint-staged": "^16.3.1",
         "simple-git-hooks": "^2.13.1",
-        "tsdown": "^0.21.0",
+        "tsdown": "^0.21.2",
         "tsup": "^8.5.1",
         "tsx": "^4.21.0",
         "typescript": "^5.9.3"
