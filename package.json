@@ -39,7 +39,7 @@
         "@types/node": "^25.9.9",
         "eslint": "^9.39.5",
         "jiti": "^2.7.0",
-        "lint-staged": "^16.4.0",
+        "lint-staged": "^17.6.0",
         "simple-git-hooks": "^2.14.0",
         "tsdown": "^0.23.2",
         "tsup": "^9.0.0",
