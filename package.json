@@ -34,10 +34,10 @@
         "tsdown": "^0.21.2"
     },
     "devDependencies": {
-        "@antfu/eslint-config": "^7.7.3",
+        "@antfu/eslint-config": "^10.0.0",
         "@lonewolfyx/tsconfig": "^0.0.6",
         "@types/node": "^26.6.6",
-        "eslint": "^9.39.5",
+        "eslint": "^10.15.0",
         "jiti": "^2.7.0",
         "lint-staged": "^17.6.0",
         "simple-git-hooks": "^2.14.0",
