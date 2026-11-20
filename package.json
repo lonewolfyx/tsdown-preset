@@ -2,7 +2,7 @@
     "name": "tsdown-preset",
     "type": "module",
     "version": "1.0.6",
-    "packageManager": "pnpm@10.34.9",
+    "packageManager": "pnpm@12.21.0",
     "description": "An opinionated preset for tsdown.",
     "author": "lonewolfyx",
     "license": "MIT",
